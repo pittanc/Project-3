@@ -1,15 +1,10 @@
 # PHP2550_Project3
 
+## Title
+Optimizing Study Designs for Cluster Randomized Trials under Budget Constraints: A Simulation Study
+
 ## Abstract
-
-### Background
-Smoking cessation is particularly challenging for individuals with major depressive disorder (MDD), as nicotine dependence and psychological factors related to depression can reduce motivation to quit. This study builds on prior findings (Roufosse F, Kahn JE, Rothenberg ME, et al. (2020)) by investigating baseline predictors and potential moderators of behavioral and pharmacotherapy treatments on smoking abstinence among adult smokers who had a life-time diagnosis of MDD.
-
-### Methods
-A randomized, placebo-controlled 2x2 factorial trial was conducted, comparing Behavioral Activation for Smoking Cessation (BASC) and standard treatment (ST) with or without adjunctive varenicline. Logistic LASSO and random forest models were constructed to evaluate the predictive power of baseline variables on smoking abstinence, with and without interaction terms to explore potential moderating effects.
-
-### Results
-The two logistic LASSO models were evaluated using 5-fold cross-validation, while the two random forest models were evaluated using out-of-bag predictions. The random forest model with interaction terms achieved the highest performance in terms of AUC (0.719). FTCD score, Non-Hispanic White ethnicity, and current MDD status emerged as significant predictors of abstinence, with FTCD score possibly moderating the effects of behavioral treatment. Varenicline demonstrated a positive effect on abstinence, and its impact may be moderated by smoking-related variables, such as nicotine metabolism ratio. In contrast, BASC did not significantly contribute to abstinence, aligning with previous findings. Further research is needed to fully explore the interactions between BASC, anhedonia, and abstinence.
+Cluster randomized trials pose unique challenges in balancing cost and study design, particularly under budget constraints. This study investigates optimal combinations of clusters and within-cluster observations for estimating treatment effects. Using simulations, we evaluate designs with outcomes following normal and Poisson distributions. The model parameters and costs-related parameters are systematically varied. Our results demonstrate that when the data come from normal distribution, the optimal design is likely to take a large value of the number of clusters with fewer observations. If data come from poisson distribution, the optimal number of clusters tends to be evenly distributed in its possible range. However, the interdependence of parameters complicates straightforward recommendations.  The simulation results do not clearly support some of the expected impacts of parameters on the optimal design. Future work should address model convergence issues, incorporate broader parameter spaces, and consider practical constraints to refine recommendations for optimal study designs.
 
 ## Files
 
