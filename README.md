@@ -12,6 +12,10 @@ Project3_JT.Rmd: The Rmarkdown version of the Simulation report, which includes 
 
 Project3_JT.pdf: The PDF version of the Simulation report, which includes both written text interpretations and a Code Applendix with the raw code used in the analysis.
 
+results_normal_table.rds: The RDS version of the simulated results table when the outcome data is from normal distribution
+
+results_poisson_table.rds: The RDS version of the simulated results table when the outcome data is from poisson distribution
+
 ## Dependencies
 The following packages were used in this analysis:
 
